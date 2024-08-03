@@ -75,7 +75,7 @@ public class Taller1 {
     public static long Convertir_us_cops (long  ndolares ) {
       try {
          long canti_peso=0;
-         short TRM = 4170;
+         final short TRM = 4170;
          canti_peso= ndolares*TRM;
           return  canti_peso;
         } catch (Exception e) {
